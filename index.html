@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body style="font-family: 'Times New Roman', serif;">
+    <header class=" mx-auto flex text-2xl font-bold border border-gray-400 h-20 ">
+        <h1 class="text-4xl mt-4 ml-4 ">BibloHub</h1>
+        <ul class="container mx-auto flex justify-center gap-20 items-center   ml-16 text-xl ">
+            <li>Home</li>
+            <li> Contact Us</li>
+            <li> About us</li>
+            <li>Catalouge</li>
+            
+        </ul>
+    </header>
+
+    <div class="h-16 flex justify-center items-center gap-4">
+        <input
+            type="text"
+            placeholder="Search book"
+            class="border h-10 border-gray-400 ml-4 w-80 p-4 rounded-xl"
+        />
+        <button class="bg-orange-500 h-10 w-20 rounded-xl">Login</button>
+        <button class="bg-orange-500 h-10 w-20 rounded-xl">Sign in</button>
+    </div>
+        <div class="m-8">
+            <ul class="flex justify-between items-center mb-4 text-xl">
+                <li>Acadamices</li>
+                <li>|</li>
+                <li>Fiction</li>
+                <li>|</li>
+                <li>Non-fiction</li>
+                <li>|</li>
+                <li>children</li>
+                <li>|</li>
+                <li>Adult</li>
+                <li>|</li>
+                <li>Comics and garphical novel</li>
+                <li>|</li>
+                <li>Language</li>
+                <li>|</li>
+                <li class="text-yellow-600">Offers</li>
+            </ul>
+        </div>
+            
+        <div class="flex justify-between items-center ">
+    <div class=" w-84 bg-cover bg-center box-border flex justify-between items-center ml-16 h-80 " style="background-image: url('bookstore.jpg')">
+        <form class="text-white text-xl font-bold m-12">
+            <label for="email ">Email:</label><br>
+            <input placeholder="Enter your Email " class="bg-orange-500 p-2 "type="email" id="email" name="email" required><br><br>
+            <label for="password">Password:</label><br>
+            <input  placeholder="Password" class="bg-orange-500 p-2"type="password" id="password" name="password" required><br><br>
+            <input class="bg-orange-500 h-10 w-20 rounded-xl"type="submit" value="Login">
+        </form>
+    </div>
+
+        <div class=" h-80 w-68 m-24 text-xl border-4 border-black-700 p-4" >
+            <h1 class="mb-4 font-bold text-center" >About us</h1>
+            <p >"Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure nisi eius tempore 
+            quidem voluptatum, ipsam autem perferendis dolorum provident hic tenetur praesentium 
+            vero! Delectus voluptatum id, minima doloremque illo eos Lorem ipsum, 
+            dolor sit amet consectetur adipisicing elit. Odio minima repellat delectus sint! 
+            Non, soluta quidem placeat nobis possimus cumque mollitia ullam velit incidunt
+             fugiat nihil iusto ratione reprehenderit nisi! Lorem ipsum dolor sit amet consectetur adipisicing 
+             elit. Amet quod, harum voluptatibus eius incidunt quis aliquid saepe? Repellat porro dolores,
+              nihil iste mollitia expedita, tempore obcaecati nisi voluptatem magni vero ipsam minus molestias
+               amet id est vel provident necessitatibus
+             aliquid? Distinctio id animi odit quaerat necessitatibus iusto atque tenetur.!"</p>
+        </div> 
+        </div>
+    
+
+    <div class="flex justify-center items-center text-4xl font-semibold m-8">
+        <h1 class="border-h border-gray-400">Best Sellers</h1>
+        </div>
+    
+ 
+    <div class="grid grid-cols-5 gap-1 ml-12">
+       
+        <div class=p-4>
+            <img class="h-72 w-44" src="atss.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="tac.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+           <div class=p-4>
+            <img class="h-72 w-48" src="tkr.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="atss.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="tsz.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="p&p.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="bgae.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="fios.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="gid.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" class="text-yellow-400">&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+
+           <div class=p-4>
+            <img class="h-72 w-44" src="tbot.jpg"/>
+            <div class="flex flex-col justify-center items-cente text-xl">
+                <h2>Novel by Khaled Hosseini</h2>
+            <h2>Price:12$</h2>
+            <div class="flex  items-cente text-green-500">
+                <button>4.6</button>
+                <h1>(10)</h1>
+            </div>
+
+            <div class="flex items-center">
+                <input type="radio" id="star5" name="rating" value="5" class="hidden" />
+                <label for="star5" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star4" name="rating" value="4" class="hidden" />
+                <label for="star4" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star3" name="rating" value="3" class="hidden" />
+                <label for="star3" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star2" name="rating" value="2" class="hidden" />
+                <label for="star2" class="text-yellow-400">&#9733;</label>
+                <input type="radio" id="star1" name="rating" value="1" class="hidden" />
+                <label for="star1" >&#9733;</label>
+            </div>
+
+
+
+            </div>
+           </div>
+
+
+
+
+           
+
+
+
+     
+
+        </div>
+
+        
+        <div class="bg-black h-32 p-12">
+        <div class="flex items-center justify-center space-x-4 ">
+            <!-- Facebook -->
+            <a href="#" class="text-gray-500 hover:text-blue-500">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 4h2a2 2 0 0 1 2 2v14m-4-16v2a4 4 0 0 1-4 4H4v4h4v8h4v-8h3a7 7 0 0 0 0-14z" />
+                </svg>
+            </a>
+        
+            <!-- Instagram -->
+            <a href="#" class="text-gray-500 hover:text-purple-500">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 3H10a5 5 0 0 0-5 5v4a5 5 0 0 0 5 5h4a5 5 0 0 0 5-5V8a5 5 0 0 0-5-5zm4 5V6" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 21v-2a4 4 0 0 1 4-4h2a4 4 0 0 1 4 4v2" />
+                </svg>
+            </a>
+        
+            <!-- Twitter -->
+            <a href="#" class="text-gray-500 hover:text-blue-400">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M22 3.08v.036a10 10 0 0 1-2.772 6.838 4.97 4.97 0 0 0 2.246-.63 4.95 4.95 0 0 1-1.624 2.59c-.607.515-1.35.883-2.151 1.079a4.924 4.924 0 0 1-2.285-.03c.656.2 1.282.259 1.924.115a4.932 4.932 0 0 0 4.583-.45 4.946 4.946 0 0 1-2.291 2.527 9.86 9.86 0 0 0 3.16-.814c.083-.03.165-.063.248-.098a14.018 14.018 0 0 1-10.205 2.757A13.956 13.956 0 0 1 2 15.218a13.986 13.986 0 0 0 7.55 2.215c9.085 0 14.03-7.52 14.03-14.035 0-.21-.005-.42-.014-.63a10.108 10.108 0 0 0 2.478-2.57c-.906.395-1.87.675-2.874.825z" />
+                </svg>
+            </a>
+        
+            <!-- LinkedIn -->
+            <a href="#" class="text-gray-500 hover:text-blue-700">
+                <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 6c0 1.95-.05 3.667-.05 6.027 0 2.36.05 4.077.05 6.027C3 19.88 6.333 21 12 21c5.705 0 9-1.1 9-5.973V9.975H15v4h-2.462V9.975h-.038l.012.038H10.5l.037-.013v4.038H8v-4.038H6v4.038H4V6zM5 3h14a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z" />
+                </svg>
+            </a>
+
+        
+            
+        </div>
+        <h1 class="text-white text-center ">copyright..all rights reversed</h1>
+            
+    </div>
+
+        
+    
+        
+       
+        
+    </body>
+</html>
