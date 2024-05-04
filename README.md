@@ -5,7 +5,9 @@ Welcome to my Tailwind CSS project! This project was created with CDN link and d
 
 
 Description:
-this project is based on a static online bookstar website made to learn Tailwind CSS.
+this project is based on a static online bookstore website made to learn Tailwind CSS.
 
 Demo:
 A Demo of website follow the Link
+
+https://swapniljukariya.github.io/BookstoreUsingTailwind/
